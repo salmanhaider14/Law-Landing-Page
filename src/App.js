@@ -12,10 +12,10 @@ import {
 function App() {
   return (
     <div>
-      <header>
+      <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <div class="container-fluid">
-            <a class="navbar-brand ps-5" href="#">
+            <a class="navbar-brand ps-5" href="#header">
               <FaUser />
             </a>
             <button
@@ -91,16 +91,16 @@ function App() {
       <section id="stats">
         <ul>
           <li>
-            <img src="/airbnb.png" width={200} />
+            <img src="/airbnb.png" width={200} alt="" />
           </li>
           <li>
-            <img src="/hubspot.png" width={200} />
+            <img src="/hubspot.png" width={200} alt="" />
           </li>{" "}
           <li>
-            <img src="/microsoft.png" width={200} />
+            <img src="/microsoft.png" width={200} alt="" />
           </li>{" "}
           <li>
-            <img src="/google.png" width={200} />
+            <img src="/google.png" width={200} alt="" />
           </li>
         </ul>
       </section>
@@ -118,7 +118,7 @@ function App() {
           </div>
           <div className="terms-cards">
             <div className="term-card">
-              <img src="/circle.png" />
+              <img src="/circle.png" alt="" />
               <h1>Enviromental Law</h1>
               <p>
                 Environmental legal issues might occur since the planned
@@ -126,7 +126,7 @@ function App() {
               </p>
             </div>{" "}
             <div className="term-card">
-              <img src="/bag.png" />
+              <img src="/bag.png" alt="" />
               <h1>Corporate and Commercial</h1>
               <p>
                 We provide a complete range of services for the continuity of
@@ -134,7 +134,7 @@ function App() {
               </p>
             </div>{" "}
             <div className="term-card">
-              <img src="/rocket.png" />
+              <img src="/rocket.png" alt="" />
               <h1>Information and Technology</h1>
               <p>
                 IT not followed by the existing regulation which might cause
@@ -142,7 +142,7 @@ function App() {
               </p>
             </div>{" "}
             <div className="term-card">
-              <img src="/circle.png" />
+              <img src="/circle.png" alt="" />
               <h1>Other Services</h1>
               <p>
                 In dealing with disruptive economic and legal challenge, our
@@ -182,7 +182,12 @@ function App() {
               team is so grateful for the wonderful improvements they made and
               their ability to get familiar with the concept so quickly.
             </p>
-            <img src="/client1.png" width={250} style={{ padding: "20px" }} />
+            <img
+              src="/client1.png"
+              width={250}
+              style={{ padding: "20px" }}
+              alt=""
+            />
           </div>{" "}
           <div className="testimonel-card">
             <h1
@@ -197,7 +202,12 @@ function App() {
               Apps. The experience has been pleasant, professional and exceeding
               our expectations.
             </p>
-            <img src="/client1.png" width={250} style={{ padding: "20px" }} />
+            <img
+              src="/client1.png"
+              width={250}
+              style={{ padding: "20px" }}
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -218,7 +228,7 @@ function App() {
               Call Now
             </button>
           </div>
-          <img src="/contact.png" />
+          <img src="/contact.png" alt="" />
         </div>
       </section>
       <footer class="footer">
@@ -228,19 +238,19 @@ function App() {
               <h4>Product</h4>
               <ul>
                 <li>
-                  <a href="#">Overview</a>
+                  <a href="#header">Overview</a>
                 </li>
                 <li>
-                  <a href="#">Features</a>
+                  <a href="#header">Features</a>
                 </li>
                 <li>
-                  <a href="#">Tutorials</a>
+                  <a href="#header">Tutorials</a>
                 </li>
                 <li>
-                  <a href="#">Pricing</a>
+                  <a href="#header">Pricing</a>
                 </li>
                 <li>
-                  <a href="#">Releases</a>
+                  <a href="#header">Releases</a>
                 </li>
               </ul>
             </div>
@@ -248,19 +258,19 @@ function App() {
               <h4>Company</h4>
               <ul>
                 <li>
-                  <a href="#">About</a>
+                  <a href="#header">About</a>
                 </li>
                 <li>
-                  <a href="#">Press</a>
+                  <a href="#header">Press</a>
                 </li>
                 <li>
-                  <a href="#">Careers</a>
+                  <a href="#header">Careers</a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a href="#header">Contact</a>
                 </li>
                 <li>
-                  <a href="#">Partners</a>
+                  <a href="#header">Partners</a>
                 </li>
               </ul>
             </div>
@@ -268,32 +278,32 @@ function App() {
               <h4>Support </h4>
               <ul>
                 <li>
-                  <a href="#">Help Center</a>
+                  <a href="#header">Help Center</a>
                 </li>
                 <li>
-                  <a href="#">Terms Of Service</a>
+                  <a href="#header">Terms Of Service</a>
                 </li>
                 <li>
-                  <a href="#">Legal</a>
+                  <a href="#header">Legal</a>
                 </li>
                 <li>
-                  <a href="#">Privacy Policy</a>
+                  <a href="#header">Privacy Policy</a>
                 </li>
               </ul>
             </div>
             <div class="footer-col">
               <h4>follow us</h4>
               <div class="social-links">
-                <a href="#">
+                <a href="#header">
                   <FaFacebook />
                 </a>
-                <a href="#">
+                <a href="#header">
                   <FaTwitter />
                 </a>
-                <a href="#">
+                <a href="#header">
                   <FaInstagram />
                 </a>
-                <a href="#">
+                <a href="#header">
                   <FaYoutube />
                 </a>
               </div>
