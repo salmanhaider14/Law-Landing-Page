@@ -12,7 +12,6 @@ body {
 
 #header {
   min-height: 100vh;
-  background-color: #00040f;
 }
 .header-container {
   display: flex;
