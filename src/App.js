@@ -157,13 +157,13 @@ function App() {
         <p>Our achievement in the journey depicted in numbers</p>
         <ul>
           <li>
-            <img src="/2.png" width={200} />
+            <img src="/2.png" width={200} alt="" />
           </li>
           <li>
-            <img src="/3.png" width={200} />
+            <img src="/3.png" width={200} alt="" />
           </li>{" "}
           <li>
-            <img src="/4.png" width={200} />
+            <img src="/4.png" width={200} alt="" />
           </li>{" "}
         </ul>
       </section>
