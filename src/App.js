@@ -194,7 +194,7 @@ function App() {
               className="testimonel-heading"
               style={{ fontSize: "20px", color: "#151617", fontWeight: "500" }}
             >
-              Responsive and Professional Partner
+              Professional Partner
             </h1>
             <p>
               Fermin Apps has collaborated with Landify team for several
