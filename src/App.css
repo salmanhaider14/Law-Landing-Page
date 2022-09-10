@@ -545,10 +545,11 @@ ul {
     font-size: 18px;
   }
   .header-container h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .header-container p {
-    font-size: 14px;
+    font-size: 12px;
+    width: 250px;
   }
   #achievement h1 {
     font-size: 30px;
@@ -557,10 +558,14 @@ ul {
     font-size: 12px;
   }
   .terms-content h1 {
-    font-size: 32px;
+    font-size: 30px;
+  }
+  .terms-content p {
+    width: 250px;
   }
   .contact-content p {
     width: 200px;
+    line-height: 25px;
   }
   .testimonel-card img {
     width: 180px;
