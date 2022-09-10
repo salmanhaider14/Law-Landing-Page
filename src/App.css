@@ -498,8 +498,12 @@ ul {
   .terms-content p {
     width: 300px;
   }
+  .contact-content h1 {
+    font-size: 30px;
+  }
   .contact-content p {
     width: 250px;
+    line-height: 30px;
   }
   .testimonel-card {
     width: 470px;
