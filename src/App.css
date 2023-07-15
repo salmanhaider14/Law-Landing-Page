@@ -72,6 +72,8 @@ body {
   color: #f9f8f9;
   font-family: "Poppins", sans-serif;
   transition: all 0.3s;
+  border: none;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
 }
 .header-container button:hover {
   transform: scale(1.2);
@@ -172,6 +174,7 @@ body {
   box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .term-card:hover {
   transform: scale(0.8);
@@ -294,6 +297,7 @@ body {
   border-radius: 5px;
   margin: 20px;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .testimonel-card:hover {
   transform: scale(0.8);

@@ -30,10 +30,13 @@ function App() {
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto me-auto   mb-2 mb-lg-0 ">
-                <li class="nav-item">
+              <ul
+                class="navbar-nav ms-auto me-auto    mb-2 mb-lg-0 "
+                style={{ fontWeight: "500" }}
+              >
+                <li class="nav-item ">
                   <a
-                    class="nav-link active pe-5"
+                    class="nav-link  active pe-5"
                     aria-current="page"
                     href="#contact"
                   >
@@ -68,7 +71,7 @@ function App() {
                   </a>
                 </li>
               </ul>
-              <FaSearch className="me-5" />
+              <FaSearch className="me-5" cursor={"pointer"} />
             </div>
           </div>
         </nav>
@@ -233,7 +236,7 @@ function App() {
       </section>
       <footer class="footer">
         <div class="container">
-          <div class="row">
+          <div class="row ">
             <div class="footer-col">
               <h4>Product</h4>
               <ul>
